@@ -1,0 +1,19 @@
+{
+  "description": "Local threat-intel list for safe testing and portfolio demos. Add domains/IPs you want the NDR to treat as malicious or blocked. This is not fake alert data; it is a configurable blocklist used by the live detector.",
+  "malicious_domains": [
+    "malicious.test",
+    "bad.example",
+    "evil.local",
+    "test-malware.local",
+    "malicious-demo.local"
+  ],
+  "malicious_ips": [
+    "203.0.113.66",
+    "198.51.100.66"
+  ],
+  "suspicious_http_headers": [
+    "x-malware-test",
+    "x-evil-test",
+    "x-c2-test"
+  ]
+}
